@@ -1153,7 +1153,7 @@ ul, ol {
     display: block;
     height: auto;
     padding-top: 64px;
-    padding-top: 8px; }
+    padding-top: 120px; }
   .man .h2 {
     margin-bottom: 40px; }
   .man .man__img {
@@ -1171,9 +1171,9 @@ ul, ol {
   .man .man__t {
     width: 300px;
     bottom: auto;
-    top: 150px;
+    top: 230px;
     left: auto;
-    right: 12%; }
+    right: 1%; }
   .man .block1, .man .block2, .man .block3, .man .block4 {
     position: relative;
     top: auto;
@@ -1230,12 +1230,15 @@ ul, ol {
     height: 550px;
     margin-right: 0 !important; }
     .services_2__item .img img {
-      width: 150%;
+      width: 160%;
       height: auto; }
     .services_2__item .icon img:nth-child(1) {
       display: none; }
     .services_2__item .icon img:nth-child(2) {
       display: block; }
+  .services_2__item.big .img img {
+    width: auto !important;
+    height: 120% !important; }
   .services_2__item.big .icon img:nth-child(2) {
     display: none; }
   .services_2__item.big .icon img:nth-child(1) {
@@ -1343,7 +1346,7 @@ ul, ol {
     width: 100%;
     margin: 0; }
   .contact__left {
-    margin-bottom: 164px;
+    margin-bottom: 72px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1415,7 +1418,18 @@ ul, ol {
   .services .zipp-services {
     width: 1000px;
     left: -20%;
-    top: -40px; } }
+    top: -40px; }
+  .category .h2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center; }
+  .services_2__item h5 {
+    top: 460px; } }
 
 @media screen and (max-width: 767px) {
   .container {
@@ -1510,7 +1524,8 @@ ul, ol {
   .man .man__t {
     width: 177px;
     bottom: auto;
-    top: 204px; }
+    top: 160px;
+    right: -50px; }
   .man .block1, .man .block2, .man .block3, .man .block4 {
     width: 100%;
     position: relative;
@@ -1797,7 +1812,7 @@ ul, ol {
     padding: 0 15px;
     padding-top: 0;
     padding-bottom: 0;
-    margin-bottom: 127px; }
+    margin-bottom: 90px; }
   .contact__right {
     padding-top: 50px;
     padding-bottom: 0; }
@@ -1890,3 +1905,7 @@ ul, ol {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; } }
+
+@media screen and (max-width: 330px) {
+  .contact {
+    padding-bottom: 24px; } }
