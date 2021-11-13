@@ -738,6 +738,42 @@ ul, ol {
 .category {
   padding-top: 160px;
   padding-bottom: 135px; }
+  .category .ball {
+    width: 603px;
+    height: 603px;
+    border: 1px solid #E5EFFF;
+    border-radius: 50%;
+    position: absolute;
+    left: -300px;
+    bottom: -300px;
+    opacity: 0;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
+  .category .ball::after {
+    content: "";
+    width: 427px;
+    height: 427px;
+    border: 1px solid #ABCCFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .category .ball::before {
+    content: "";
+    width: 279px;
+    height: 279px;
+    border: 1px solid #3382FF;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
   .category .h2 {
     font-weight: 800;
     font-size: 48px;
@@ -860,6 +896,9 @@ ul, ol {
   -webkit-transform: scale(1.02);
   -ms-transform: scale(1.02);
   transform: scale(1.02); }
+
+.category__item:hover .ball {
+  opacity: 1; }
 
 .brands {
   background: #F5F7FF;
