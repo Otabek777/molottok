@@ -1518,6 +1518,8 @@ ul, ol {
     -ms-flex-align: center;
     align-items: center;
     text-align: center; }
+    .category .h2 br {
+      display: none; }
   .services_2__item h5 {
     top: 460px; }
   .services_2__item .icon img {
