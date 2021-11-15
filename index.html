@@ -333,8 +333,6 @@
                     <div class="brands__item">
                         <img src="img/brand4.png" alt="">
                     </div>
-                </div>
-                <div class="brands__box box2">
                     <div class="brands__item">
                         <img src="img/brand5.png" alt="">
                     </div>
@@ -377,7 +375,7 @@
                         <form action="">
                             <div class="form_container">
                                 <input type="text" class="input" placeholder="Имя">
-                                <input type="number" class="input" placeholder="+7(___)-__-__-__">
+                                <input type="text" placeholder="Телефон" name="phone" class="phone-input error input" required="required" data-rule-required="true" data-rule-minlength="10" data-msg="Введите номер телефона" aria-invalid="true">
                                 <input type="email" class="input" placeholder="E-mail">
                                 <div class="check">
                                     <input type="checkbox" checked>
@@ -416,5 +414,11 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/SmoothScroll.js"></script>
     <script src="js/main.js"></script>
+
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script>
+        $(".phone-input").mask("+7 (999) 999-9999", {autoclear: false});
+    </script>
 </body>
 </html>
