@@ -1383,7 +1383,6 @@ ul, ol {
     text-align: center;
     margin-bottom: 32px; }
   .brands__box {
-    width: 1071px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   .brands__item {
@@ -1396,25 +1395,15 @@ ul, ol {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 330px;
+    width: 49%;
     height: 160px;
     margin-bottom: 0;
-    margin-right: 27px;
-    margin-bottom: 32px; }
+    margin-right: 2%;
+    margin-bottom: 24px; }
     .brands__item img {
       height: 121px; }
-  .brands__item:nth-child(1), .brands__item:nth-child(2), .brands__item:nth-child(3) {
-    -webkit-transform: translateX(-71px);
-    -ms-transform: translateX(-71px);
-    transform: translateX(-71px); }
-  .brands__item:nth-child(4), .brands__item:nth-child(5), .brands__item:nth-child(6) {
-    -webkit-transform: translateX(-138px);
-    -ms-transform: translateX(-138px);
-    transform: translateX(-138px); }
-  .brands__item:nth-child(7), .brands__item:nth-child(8) {
-    -webkit-transform: translateX(38px);
-    -ms-transform: translateX(38px);
-    transform: translateX(38px); }
+  .brands__item:nth-child(2n) {
+    margin-right: 0; }
   .contact {
     display: block;
     overflow: hidden;
@@ -1884,8 +1873,6 @@ ul, ol {
     text-align: center;
     margin-bottom: 32px;
     padding: 0 15px; }
-  .brands__box {
-    width: 330px; }
   .brands__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1896,29 +1883,14 @@ ul, ol {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 149px;
+    width: 49%;
     height: 72px;
-    margin-bottom: 0;
-    margin-right: 16px;
-    margin-bottom: 24px; }
+    margin-right: 2%;
+    margin-bottom: 12px; }
     .brands__item img {
       height: 54px; }
-  .brands__item:nth-child(1), .brands__item:nth-child(2) {
-    -webkit-transform: translateX(-24px);
-    -ms-transform: translateX(-24px);
-    transform: translateX(-24px); }
-  .brands__item:nth-child(3), .brands__item:nth-child(4) {
-    -webkit-transform: translateX(32px);
-    -ms-transform: translateX(32px);
-    transform: translateX(32px); }
-  .brands__item:nth-child(5), .brands__item:nth-child(6) {
-    -webkit-transform: translateX(-24px);
-    -ms-transform: translateX(-24px);
-    transform: translateX(-24px); }
-  .brands__item:nth-child(7), .brands__item:nth-child(8) {
-    -webkit-transform: translateX(32px);
-    -ms-transform: translateX(32px);
-    transform: translateX(32px); }
+  .brands__item:nth-child(2n) {
+    margin-right: 0; }
   .contact {
     display: block;
     overflow: hidden;
